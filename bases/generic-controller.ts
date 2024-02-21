@@ -1,4 +1,4 @@
-import { NextFunction, Response, Request } from "express-serve-static-core";
+import { NextFunction, Response, Request } from "express";
 import { HttpResponse, Paginator } from "../HTTP/http-response";
 import { Controllable } from "./controllable";
 import { Accessible } from "./accessible";
